@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-
+@if (count($errors) > 0)
+        
     <h1>メッセージ新規作成ページ</h1>
 
     <div class="row">
